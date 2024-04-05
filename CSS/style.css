@@ -1,0 +1,125 @@
+*{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    
+}
+.nav-link{
+    padding-left: 40px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+header{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    height: 910px;
+    background-position: center top;
+}
+.button{
+    color: #bdae82;
+    width: 220px
+
+}
+.main_text{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.en{
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ru{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.slash{}
+.text_ar{
+    padding-left: 80px;
+    padding-top: 160px;
+}
+.main_text_big{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120px; /* 200% */
+}
+.text_ar{
+    width: 500px
+}
+.main_black{
+    background-color: black;
+    background-size: 1200px;
+}
+.main_section1_skill_text{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.Skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 320px;
+}
+.Skills{
+    display: flex;
+    gap: 40px;
+
+}
+.main_goldh2{
+    text-align: center;
+    color: #bdae82;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.main_h3{
+    text-align: center;
+}
+.Portfolio_button{
+    border: #bdae82 solid;
+    color: #bdae82;
+    border-width: 1px;
+    padding: 10px;
+}
+.Portfolio_text{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.Portfolio_images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
